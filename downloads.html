@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>PromoNumber | Downloads</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#f4f6fb;
+color:#333;
+}
+
+/* HEADER */
+header{
+background:#111827;
+color:white;
+padding:20px 60px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+display:flex;
+align-items:center;
+gap:10px;
+font-size:22px;
+font-weight:700;
+}
+
+.logo img{
+width:55px;
+height:55px;
+border-radius:50%;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#d4af37;
+}
+
+/* HERO */
+.hero{
+background:linear-gradient(135deg,#16a34a,#22c55e);
+color:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+/* DOWNLOADS */
+.downloads{
+padding:80px 60px;
+}
+
+.download-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.download-card{
+background:white;
+padding:30px;
+border-radius:12px;
+text-align:center;
+box-shadow:0 8px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.download-card:hover{
+transform:translateY(-8px);
+}
+
+.download-card img{
+width:80px;
+margin-bottom:20px;
+}
+
+.download-card h3{
+margin-bottom:15px;
+}
+
+.download-card p{
+margin-bottom:20px;
+color:#666;
+}
+
+.download-btn{
+display:inline-block;
+padding:12px 24px;
+background:#16a34a;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:600;
+}
+
+.download-btn:hover{
+background:#15803d;
+}
+
+/* FOOTER */
+footer{
+background:#020617;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">
+<img src="logo.jpg" alt="PromoNumber">
+<span>PromoNumber</span>
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="index.html#features">Features</a>
+<a href="index.html#gallery">Promotions</a>
+<a href="downloads.html">Downloads</a>
+<a href="index.html#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Downloads Center</h1>
+<p>Get the latest PromoNumber applications, guides and resources.</p>
+</section>
+
+<section class="downloads">
+
+<div class="download-grid">
+
+<div class="download-card">
+<img src="https://cdn-icons-png.flaticon.com/512/888/888857.png">
+<h3>PromoNumber Android App</h3>
+<p>Install the latest Android version.</p>
+<a href="downloads/PromoNumber.apk"
+class="download-btn"
+download>
+Download APK
+</a>
+</div>
+
+<div class="download-card">
+<img src="https://cdn-icons-png.flaticon.com/512/337/337946.png">
+<h3>User Guide</h3>
+<p>Learn how to use PromoNumber.</p>
+<a href="downloads/PromoNumber_Guide.pdf"
+class="download-btn"
+download>
+Download PDF
+</a>
+</div>
+
+<div class="download-card">
+<img src="https://cdn-icons-png.flaticon.com/512/2991/2991112.png">
+<h3>Business Brochure</h3>
+<p>View our latest brochure.</p>
+<a href="downloads/Brochure.pdf"
+class="download-btn"
+download>
+Download Brochure
+</a>
+</div>
+
+<div class="download-card">
+<img src="https://cdn-icons-png.flaticon.com/512/3767/3767084.png">
+<h3>Marketing Kit</h3>
+<p>Promotional materials for partners.</p>
+<a href="downloads/Marketing_Kit.zip"
+class="download-btn"
+download>
+Download ZIP
+</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 PromoNumber. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
